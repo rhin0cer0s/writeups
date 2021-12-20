@@ -15,11 +15,10 @@ I do not have any Microsoft Windows analysis machine ready at the moment.
 Let's do it all statically !
 
 ## Ghidra
-Ghidra decompiles the application to an impressive, hard to read - and understand -
-output :
+Ghidra decompiles the application to an impressive, hard to read - and understand - output :  
 ![This is an image](IMGs/GHIDRA_0.png)
 
-Ghidra identified several functions, some of them refer to GUI actions :
+Ghidra identified several functions, some of them refer to GUI actions :  
 ![This is an image](IMGs/GHIDRA_1.png)
 
 - ```button1_Click-310-8324```
@@ -65,10 +64,11 @@ easiest way is through the official extension market place.
 - Open the ```Command Pallette``` : ```View``` > ```Command Pallette``` or ```Ctrl+Shift+P```
 - Type ```ILSpy```
 - Select ```ILSpy : Pick assembly from file system```
-- Select the ```grinch.exe``` file
+- Select the ```grinch.exe``` file  
+
 ![This is an image](IMGs/VISUAL_CODE_STUDIO_0.png)
 
-ILSpy creates a new panel : ```ILSPY DECOMPILED MEMBERS``` which contains the decompiled code.
+ILSpy creates a new panel : ```ILSPY DECOMPILED MEMBERS``` which contains the decompiled code.  
 ![This is an image](IMGs/VISUAL_CODE_STUDIO_1.png)
 
 ## Finding validation algorithm
